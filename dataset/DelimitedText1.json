@@ -20,66 +20,87 @@
 		},
 		"schema": [
 			{
+				"name": "SNAPSHOT_DATETIME",
 				"type": "String"
 			},
 			{
+				"name": "SUPPLIER_CODE",
 				"type": "String"
 			},
 			{
+				"name": "DATA_SOURCE",
 				"type": "String"
 			},
 			{
+				"name": "MATERIAL_TYPE",
 				"type": "String"
 			},
 			{
+				"name": "QCT_PKG_PROD_NAME",
 				"type": "String"
 			},
 			{
+				"name": "QCT_FG_MCN",
 				"type": "String"
 			},
 			{
+				"name": "QCT_MANUFACTURING_MCN",
 				"type": "String"
 			},
 			{
+				"name": "QCT_MATERIAL_PART_NUMBER",
 				"type": "String"
 			},
 			{
+				"name": "SUPPLIER_MATERIAL_PART_NUMBER",
 				"type": "String"
 			},
 			{
+				"name": "QUANTITY",
 				"type": "String"
 			},
 			{
+				"name": "MATERIAL_SUPPLIER_NAME",
 				"type": "String"
 			},
 			{
+				"name": "SUPPLIER_PO_NUM",
 				"type": "String"
 			},
 			{
+				"name": "SUPPLIER_PO_LINE",
 				"type": "String"
 			},
 			{
+				"name": "MATERIAL_NEED_DATE",
 				"type": "String"
 			},
 			{
+				"name": "MATERIAL_LOT_NUM",
 				"type": "String"
 			},
 			{
+				"name": "MATERIAL_UNIT_PRICE",
 				"type": "String"
 			},
 			{
+				"name": "SUPPLIER_PO_DATE",
 				"type": "String"
 			},
 			{
+				"name": "COMMIT_DATE",
 				"type": "String"
 			},
 			{
+				"name": "RECEIVED_DATE",
 				"type": "String"
 			},
 			{
+				"name": "INVENTORY_STATUS",
 				"type": "String"
 			},
 			{
+				"name": "EXPIRATION_DATE",
 				"type": "String"
 			}
 		]
