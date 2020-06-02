@@ -38,22 +38,7 @@
 						"type": "AzureSqlSink",
 						"disableMetricsCollection": false
 					},
-					"enableStaging": false,
-					"translator": {
-						"type": "TabularTranslator",
-						"mappings": [
-							{
-								"source": {
-									"name": "SNAPSHOT_DATETIME",
-									"type": "String"
-								},
-								"sink": {
-									"name": "Date",
-									"type": "String"
-								}
-							}
-						]
-					}
+					"enableStaging": false
 				},
 				"inputs": [
 					{
