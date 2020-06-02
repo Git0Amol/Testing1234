@@ -36,7 +36,6 @@
 					},
 					"sink": {
 						"type": "AzureSqlSink",
-						"preCopyScript": "dbo.dateTime1",
 						"disableMetricsCollection": false
 					},
 					"enableStaging": false,
@@ -50,7 +49,7 @@
 								},
 								"sink": {
 									"name": "Date",
-									"type": "DateTime"
+									"type": "String"
 								}
 							}
 						]
