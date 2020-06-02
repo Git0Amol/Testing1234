@@ -20,7 +20,7 @@
 					},
 					{
 						"name": "Destination",
-						"value": "blobcon//SMVisibilityReport_AKC_02212020_01.material2.csv"
+						"value": "blobcon//Amol.material.csv"
 					}
 				],
 				"typeProperties": {
