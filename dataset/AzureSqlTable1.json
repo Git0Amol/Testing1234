@@ -5,6 +5,12 @@
 			"referenceName": "AzureSqlDatabase1",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"TableNAme": {
+				"type": "string",
+				"defaultValue": "dbo.datetime1"
+			}
+		},
 		"annotations": [],
 		"type": "AzureSqlTable",
 		"schema": [
@@ -16,8 +22,10 @@
 			}
 		],
 		"typeProperties": {
-			"schema": "dbo",
-			"table": "dateTime1"
+			"table": {
+				"value": "@dataset().TableNAme",
+				"type": "Expression"
+			}
 		}
 	}
 }
