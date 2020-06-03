@@ -15,7 +15,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"url": "https://prod-13.centralindia.logic.azure.com:443/workflows/58e8bf0ea7214c43989d95096577e20f/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=EK19ReZbxz7093Hg0Yuiw8RRL6yE1jFdRrme4760pw0",
+					"url": "https://prod-04.centralindia.logic.azure.com:443/workflows/5d63d90f3ca04138bc319472b2aa4395/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=e8YRg7IFEbocEGeqalP8YPr0d5Hjrb-oietg8DAANYc",
 					"method": "POST",
 					"body": {
 						"name": "amol"
