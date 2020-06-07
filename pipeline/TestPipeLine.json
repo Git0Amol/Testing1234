@@ -67,7 +67,10 @@
 						"type": "DatasetReference",
 						"parameters": {
 							"TableNAme": "datetime1",
-							"DBConnectionString": "AzureSQLServerConnectionString"
+							"DBConnectionString": {
+								"value": "@variables('DBConnectionString')",
+								"type": "Expression"
+							}
 						}
 					}
 				]
