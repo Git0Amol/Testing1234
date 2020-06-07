@@ -3,12 +3,22 @@
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureSqlDatabase1",
-			"type": "LinkedServiceReference"
+			"type": "LinkedServiceReference",
+			"parameters": {
+				"DBConnectionStringSecret": {
+					"value": "@dataset().DBConnectionString",
+					"type": "Expression"
+				}
+			}
 		},
 		"parameters": {
 			"TableNAme": {
 				"type": "string",
 				"defaultValue": "dbo.datetime1"
+			},
+			"DBConnectionString": {
+				"type": "string",
+				"defaultValue": "AzureSQLServerConnectionString"
 			}
 		},
 		"annotations": [],
