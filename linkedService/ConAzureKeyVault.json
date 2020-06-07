@@ -1,0 +1,10 @@
+{
+	"name": "ConAzureKeyVault",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://keyvoultname111.vault.azure.net/"
+		}
+	}
+}
