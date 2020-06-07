@@ -66,7 +66,8 @@
 						"referenceName": "AzureSqlTable1",
 						"type": "DatasetReference",
 						"parameters": {
-							"TableNAme": "datetime1"
+							"TableNAme": "datetime1",
+							"DBConnectionString": "AzureSQLServerConnectionString"
 						}
 					}
 				]
