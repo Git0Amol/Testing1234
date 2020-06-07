@@ -73,6 +73,12 @@
 				]
 			}
 		],
+		"variables": {
+			"DBConnectionString": {
+				"type": "String",
+				"defaultValue": "AzureSQLServerConnectionString"
+			}
+		},
 		"annotations": []
 	}
 }
